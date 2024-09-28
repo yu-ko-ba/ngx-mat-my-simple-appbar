@@ -2,5 +2,5 @@
 
 ## Installation
 ```shell
-ng add @yu-ko-ba/ngx-mat-my-simple-appbar
+npm i @yu-ko-ba/ngx-mat-my-simple-appbar
 ```

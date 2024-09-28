@@ -1,0 +1,12 @@
+mat-toolbar {
+  margin-bottom: 20px;
+}
+
+#appName {
+  color: inherit;
+  text-decoration: none;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

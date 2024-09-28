@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@yu-ko-ba/ngx-mat-my-simple-appbar": [
+        "./dist/yu-ko-ba/ngx-mat-my-simple-appbar"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,

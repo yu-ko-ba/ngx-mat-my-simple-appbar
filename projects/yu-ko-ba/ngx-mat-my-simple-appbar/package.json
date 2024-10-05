@@ -8,9 +8,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yu-ko-ba/ngx-mat-third-party-licenses-list-view.git"
+    "url": "https://github.com/yu-ko-ba/ngx-mat-my-simple-appbar.git"
   },
-  "homepage": "https://github.com/yu-ko-ba/ngx-mat-third-party-licenses-list-view#readme",
+  "homepage": "https://github.com/yu-ko-ba/ngx-mat-my-simple-appbar#readme",
   "peerDependencies": {
     "@angular/common": "^18.2.0",
     "@angular/core": "^18.2.0",

@@ -1,6 +1,6 @@
 {
   "name": "@yu-ko-ba/ngx-mat-my-simple-appbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "ng build @yu-ko-ba/ngx-mat-my-simple-appbar",
     "postbuild": "npx copyfiles -f ../../../LICENSE ../../../README.md ../../../dist/yu-ko-ba/ngx-mat-my-simple-appbar/"

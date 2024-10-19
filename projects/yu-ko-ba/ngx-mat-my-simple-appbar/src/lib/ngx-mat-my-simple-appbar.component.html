@@ -1,9 +1,9 @@
-<mat-toolbar>
-  <a id="appName" routerLink="/">
+<mat-toolbar id="appbar">
+  <a id="app-name" routerLink="/">
     @if (router.url === "/") {
       <span>{{ appName }}</span>
     } @else {
-      <div class="iconButtonHolder">
+      <div class="icon-button-holder">
         <button mat-icon-button>
           <mat-icon>arrow_back</mat-icon>
         </button>
@@ -11,7 +11,7 @@
     }
   </a>
   <div class="spacer"></div>
-  <div class="iconButtonHolder">
+  <div class="icon-button-holder">
     <button mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>
@@ -44,3 +44,4 @@
     }
   </mat-menu>
 </mat-toolbar>
+<mat-toolbar />

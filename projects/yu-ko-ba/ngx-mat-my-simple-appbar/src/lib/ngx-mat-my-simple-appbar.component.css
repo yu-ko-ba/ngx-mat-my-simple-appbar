@@ -1,8 +1,18 @@
-mat-toolbar {
-  margin-bottom: 20px;
+#appbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 149;
+
+  background-color: color-mix(
+    in srgb,
+    var(--mat-toolbar-container-background-color) 90%,
+    transparent
+  );
+  backdrop-filter: blur(0.8px);
 }
 
-#appName {
+#app-name {
   color: inherit;
   text-decoration: none;
 }
@@ -11,6 +21,6 @@ mat-toolbar {
   flex: 1 1 auto;
 }
 
-.iconButtonHolder > * {
+.icon-button-holder > * {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }

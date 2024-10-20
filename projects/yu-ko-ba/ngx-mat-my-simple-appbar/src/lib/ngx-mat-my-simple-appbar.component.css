@@ -4,12 +4,8 @@
   left: 0;
   z-index: 149;
 
-  background-color: color-mix(
-    in srgb,
-    var(--mat-toolbar-container-background-color) 90%,
-    transparent
-  );
-  backdrop-filter: blur(0.8px);
+  background-color: inherit;
+  backdrop-filter: blur(1px);
 }
 
 #app-name {
@@ -24,4 +20,9 @@
 
 .icon-button-holder > * {
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#appbar-spacer {
+  background-color: black;
+  visibility: hidden;
 }

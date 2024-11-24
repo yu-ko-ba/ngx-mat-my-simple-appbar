@@ -6,17 +6,16 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
-  selector: 'ngx-mat-my-simple-appbar',
-  standalone: true,
-  imports: [
-    RouterLink,
-    MatToolbarModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatIconModule,
-  ],
-  templateUrl: './ngx-mat-my-simple-appbar.component.html',
-  styleUrl: './ngx-mat-my-simple-appbar.component.css',
+    selector: 'ngx-mat-my-simple-appbar',
+    imports: [
+        RouterLink,
+        MatToolbarModule,
+        MatButtonModule,
+        MatMenuModule,
+        MatIconModule,
+    ],
+    templateUrl: './ngx-mat-my-simple-appbar.component.html',
+    styleUrl: './ngx-mat-my-simple-appbar.component.css'
 })
 export class NgxMatMySimpleAppbarComponent {
   router = new Router();

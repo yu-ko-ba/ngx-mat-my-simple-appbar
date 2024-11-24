@@ -1,6 +1,6 @@
 {
   "name": "@yu-ko-ba/ngx-mat-my-simple-appbar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "ng build @yu-ko-ba/ngx-mat-my-simple-appbar",
     "postbuild": "npx copyfiles -f ../../../LICENSE ../../../README.md ../../../dist/yu-ko-ba/ngx-mat-my-simple-appbar/"
@@ -12,9 +12,9 @@
   },
   "homepage": "https://github.com/yu-ko-ba/ngx-mat-my-simple-appbar#readme",
   "peerDependencies": {
-    "@angular/common": "^18.2.0",
-    "@angular/core": "^18.2.0",
-    "@angular/material": "^18.2.6"
+    "@angular/common": ">=18.0.0 <20.0.0",
+    "@angular/core": ">=18.0.0 <20.0.0",
+    "@angular/material": ">=18.0.0 <20.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
